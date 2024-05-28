@@ -16,7 +16,7 @@
 export const global = {
   currentPage: window.location.pathname,
   api: {
-    apiKey: "",
+    apiKey: "63850bf34aa0751d2ee8cc2abd56e290",
     apiUrl: "https://api.themoviedb.org/3/",
   },
   search: {
