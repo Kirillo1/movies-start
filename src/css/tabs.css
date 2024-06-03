@@ -54,6 +54,35 @@
   padding: 8px;
 }
 
+.card-sidebar {
+  margin-top: 40px;
+  position: relative;
+  width: auto;
+  background: var(--dark-blue);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 26px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-descr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.card-sidebar img {
+  width: 50%;
+  height: auto;
+  border-radius: 4px;
+  flex-grow: 1;
+  margin-bottom: 50px;
+}
+
 .card img {
   max-width: 100%;
   border-radius: 4px;
