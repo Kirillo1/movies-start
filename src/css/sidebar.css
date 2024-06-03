@@ -20,6 +20,16 @@
   align-items: center;
 }
 
+.sidebar-title {
+  color: white;
+  margin-left: 20px;
+}
+
+.btn-icon {
+  margin-right: 25px;
+  cursor: pointer;
+}
+
 .sidebar-wrapper {
   background-color: white;
   width: 600px;
