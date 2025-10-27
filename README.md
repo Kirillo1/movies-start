@@ -1,27 +1,43 @@
-<div>
-  <h1>Movies Library</h1>
-  <p>A collection of movies.</p>
-</div>
+# 🎬 Movies Library
 
-## Instructions 📋
+Учебный проект, реализующий каталог фильмов с использованием внешнего API.
+Пользователь может просматривать подборку фильмов, открывать детальную информацию и знакомиться с описанием.
+Проект создан в процессе изучения **JavaScript (ES6)** и работы с **API**.
 
-- Download application
-- Download [`NodeJS`](https://nodejs.org/en)
-- Run terminal inside this folder
-- Run npm install for install dependencies
-- After that, run `npm run dev` for running the project
+---
 
-Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
+## 🎯 Цель проекта
 
-## Technologies used
+> Этот проект разработан в рамках обучения фронтенд-разработке.
+> Использовался для практики работы с REST API, асинхронными запросами, DOM-рендерингом и структурой фронтенд-приложения.
 
-This project follows a custom structure that combines the following:
+---
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Swiper
-- Custom fetch wrapper for HTTP-methods
-- Vite
+## 🎥 Функционал
 
-The project utilizes the Movie Database API for fetching movie information.
+- Получение списка фильмов из **Movie Database API**
+- Просмотр подробной информации о каждом фильме
+- Отображение постеров и описаний
+- Использование **Swiper** для слайдеров и навигации
+- Асинхронные запросы через кастомный fetch-wrapper
+
+---
+
+## 🧰 Технологии
+
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+- **Swiper.js**
+- **Vite**
+- **Movie Database API**
+
+---
+
+## 🚀 Как запустить проект локально
+
+```bash
+git clone https://github.com/Kirillo1/movies-library.git
+cd movies-library
+npm install
+npm run dev
